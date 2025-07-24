@@ -1,5 +1,7 @@
 create database Clinica_Banco;
 
+use Clinica_Banco;
+
 create table Clinica(
   numero int primary key,
   nome varchar(30) not null
